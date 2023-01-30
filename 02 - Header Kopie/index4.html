@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/montserrat/webfonts/Montserrat.css">
+    <title>Document</title>
+     <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Montserrat" , sans-serif;
+            background-color: rgb(200, 200, 200);
+        }
+        
+         .box {
+             width: 300px;
+             height: 300px;
+             background-color: blue;
+            /* animation-name: box-bg;
+             animation-fill-mode: both;
+             animation-timing-function: ease-in-out;
+             animation-duration: 3s;
+             animation-delay: 2s;
+             animation-iteration-count: infinite*/
+
+             animation: box-bg both ease-in-out 2s 2s infinite;
+         }
+
+         @keyframes box-bg {
+             0%, 100% {
+                 background-color: red;
+             }
+
+            33% {
+                background-color: blueviolet;
+            }
+
+             66% {
+                 background-color: aquamarine;
+             }
+
+            
+         }
+
+
+        
+
+     </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="./index5.html">Link zur index5-html-Datei</a>
+        </li>
+    </ul>
+   <marquee behavior="" direction="right">hallo fuck you</marquee>
+    <div class="box">
+        <h1>
+            Überschrift
+        </h1>
+    </div>
+</body>
+</html>
